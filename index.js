@@ -4,7 +4,7 @@ const fs = require("fs");
 let homeContent = "";
 let projectContent = "";
 
-fs.readFile("home.html", (err, home) => {
+fs.readFile("index.html", (err, home) => {
   if (err) {
     throw err;
   }
