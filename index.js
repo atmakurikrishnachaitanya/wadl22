@@ -1,9 +1,8 @@
 const http = require("http");
 const fs = require("fs");
-
 let homeContent = "";
 let projectContent = "";
-
+let registrationContent="";
 fs.readFile("home.html", (err, home) => {
   if (err) {
     throw err;
